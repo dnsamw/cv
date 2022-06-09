@@ -1,0 +1,132 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+  margin: 0;
+  width: 90%;
+  align-self: center;
+  opacity: 0.3;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+#cv-container {
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  margin: 0;
+}
+#surname {
+  margin: 0;
+
+  font-weight: 200;
+}
+
+#dp {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ffff;
+}
+#left-column {
+  background-color: #003c72;
+  color: #ffff;
+  height: 260vh;
+  width: 200px;
+}
+.left-unit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.left-unit-sub {
+  margin: 0;
+}
+.left-unit-text {
+  margin-top: 2px;
+  color: #d6d6d6;
+}
+.left-unit-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#right-column {
+  background-color: #f7f7f7;
+  color: #363c48;
+  height: 200vh;
+  width: 600px;
+}
+
+.left-unit-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  margin-top: 15px;
+  height: 30px;
+  background-color: #00305c;
+  margin-bottom: 10px;
+}
+
+#summary {
+  margin-top: 15px;
+  padding: 0 10px 20px 20px;
+}
+.right-unit-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-title {
+  align-items: center;
+  margin: 0;
+  color: #003c72;
+  padding-left: 50px;
+  padding-bottom: 5px;
+}
+
+.right-unit > table {
+  padding: 10px 10px 0 25px;
+}
+.designation {
+  font-style: italic;
+  opacity: 0.7;
+  margin: 0;
+}
+.company {
+  margin: 0;
+  font-size: 1rem;
+}
+.progress-bar {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
+.progress {
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 85%;
+  height: 5px;
+}
+.scale {
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 15%;
+  height: 5px;
+  opacity: 0.5;
+}
+a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
